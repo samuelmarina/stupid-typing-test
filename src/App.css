@@ -4,6 +4,11 @@
     url(./fonts/PressStart2P-Regular.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Monda";
+  src: local("Monda"), url(./fonts/Monda-Regular.ttf) format("truetype");
+}
+
 .App {
   text-align: center;
 }
