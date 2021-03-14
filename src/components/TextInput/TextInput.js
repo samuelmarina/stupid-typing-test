@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import InputBase from '@material-ui/core/InputBase';
 
-const TextInput = () => {
+const TextInput = ({onChange, disabled}) => {
     const classes = useStyles();
     
     return (
@@ -10,13 +10,10 @@ const TextInput = () => {
           id="standard-full-width"
           placeholder="Start typing your sh*t here"
           fullWidth
-          margin="normal"
-          InputLabelProps={{
-            shrink: true,
-            
-          }}
           className={classes.input}
           variant="outlined"
+          onChange={onChange}
+          disabled={disabled}
         />
     );
 };
