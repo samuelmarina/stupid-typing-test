@@ -36,7 +36,6 @@ const useStyles = makeStyles(() => ({
       borderColor: colors.secondary,
       borderRadius: '10px',
       padding: '10px',
-      // marginTop: '10px',
       fontWeight: 'bold',
       
   },
