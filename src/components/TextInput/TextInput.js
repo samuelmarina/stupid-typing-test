@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import InputBase from '@material-ui/core/InputBase';
-import TextField from '@material-ui/core/TextField'
 import colors from "../../config/colors/colors";
 
 const TextInput = ({onChange, disabled, value}) => {
@@ -37,7 +36,7 @@ const useStyles = makeStyles(() => ({
       borderColor: colors.secondary,
       borderRadius: '10px',
       padding: '10px',
-      margin: 8,
+      // marginTop: '10px',
       fontWeight: 'bold',
       
   },

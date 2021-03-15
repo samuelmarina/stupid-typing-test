@@ -1,7 +1,7 @@
 import React from 'react';
 import './Preview.css';
 
-const Preview = ({text, userInput, setDone}) => {
+const Preview = ({text, userInput}) => {
     const preview = text.split('');
     const input = userInput.split('');
 
