@@ -20,15 +20,15 @@ const AppButton = ({children, color, disabled, onClick}) => {
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        paddingRight: "20px",
-        paddingLeft: "20px",
         fontSize: "100%",
         fontFamily: "Monda",
         fontWeight: "bold",
         color: colors.primary,
         borderWidth: "2px",
         borderColor: colors.secondary,
-        marginLeft: "15px",
+        marginTop: "15px",
+        marginRight: '10px',
+        marginLeft: '10px',
         width: '25%',
         '&:hover': {
             borderWidth: "2px",
@@ -42,9 +42,11 @@ const useStyles = makeStyles((theme) => ({
         },
         [theme.breakpoints.down(1200)]: {
             display: 'block',
-            width: '95%',
+            width: '100%',
             fontSize: '100%',
             marginTop: '10px',
+            marginLeft: '0px',
+            marginRight: '0px'
         }
     }
 }))
