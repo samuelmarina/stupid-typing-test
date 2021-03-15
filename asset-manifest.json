@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stupid-typing-test/static/css/main.8c8d12c3.chunk.css",
+    "main.js": "/stupid-typing-test/static/js/main.f752e963.chunk.js",
+    "main.js.map": "/stupid-typing-test/static/js/main.f752e963.chunk.js.map",
+    "runtime-main.js": "/stupid-typing-test/static/js/runtime-main.7cb3daba.js",
+    "runtime-main.js.map": "/stupid-typing-test/static/js/runtime-main.7cb3daba.js.map",
+    "static/js/2.64b98a39.chunk.js": "/stupid-typing-test/static/js/2.64b98a39.chunk.js",
+    "static/js/2.64b98a39.chunk.js.map": "/stupid-typing-test/static/js/2.64b98a39.chunk.js.map",
+    "static/js/3.49a819b0.chunk.js": "/stupid-typing-test/static/js/3.49a819b0.chunk.js",
+    "static/js/3.49a819b0.chunk.js.map": "/stupid-typing-test/static/js/3.49a819b0.chunk.js.map",
+    "index.html": "/stupid-typing-test/index.html",
+    "static/css/main.8c8d12c3.chunk.css.map": "/stupid-typing-test/static/css/main.8c8d12c3.chunk.css.map",
+    "static/js/2.64b98a39.chunk.js.LICENSE.txt": "/stupid-typing-test/static/js/2.64b98a39.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/stupid-typing-test/static/media/PressStart2P-Regular.5f45b521.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cb3daba.js",
+    "static/js/2.64b98a39.chunk.js",
+    "static/css/main.8c8d12c3.chunk.css",
+    "static/js/main.f752e963.chunk.js"
+  ]
+}
