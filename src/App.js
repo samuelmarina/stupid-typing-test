@@ -8,7 +8,7 @@ import Message from "./components/Message/Message";
 import { useState } from 'react';
 
 function App() {
-  const text= "I am a programmer and I like crying every day";
+  const text = "I am a programmer and I cry all day long because I am a little bitch";
   const [userInput, setUserInput] = useState('');
   const [started, setStarted] = useState(false); 
   const [done, setDone] = useState(false);
