@@ -16,6 +16,7 @@ function App() {
   const [interv, setInterv] = useState();
   const [stopped, setStopped] = useState(false);
   const [message, setMessage] = useState('');
+  const [disableInput, setDisableInput] = useState(false);
   let num = 0;
 
   const onUserInputChange = (e) => {
@@ -29,6 +30,7 @@ function App() {
     if(val === text){
       clearInterval(interv);
       setDone(true);
+      setDisableInput(true);
       setStopped(true);
       makeMessage();
     };
@@ -47,12 +49,14 @@ function App() {
   const handleStop = () => {
     clearInterval(interv);
     setStopped(true);
+    setDisableInput(true);
   }
 
   const handleRestart = () => {
     setStarted(false);
     setStopped(false);
     setDone(false);
+    setDisableInput(false);
     setUserInput('');
     num = 0;
     setSecs(num);
@@ -91,7 +95,7 @@ function App() {
           <div className='Input'>
             <TextInput 
               onChange={onUserInputChange}
-              disabled={done}
+              disabled={disableInput}
               value={userInput}
             />
           </div>
